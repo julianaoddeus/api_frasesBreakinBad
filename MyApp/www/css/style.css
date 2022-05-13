@@ -7,7 +7,7 @@
 
 .container {
     background-color: #000;
-    background-image: url("../../www/img/breaking_bad.jpg");
+    background-image: url("/MyApp/www/img/breaking_bad.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -68,7 +68,7 @@ p {
 
 .descricao {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 12px;
     line-height: 1px;
     font-size: 12px;
     line-height: 16px;
@@ -87,11 +87,13 @@ button {
     padding: 4px 16px;
     border-radius: 5px;
     border: none;
+    background-color: #fff;
+    color: #000;
 }
 
 
 button::before {
-    content: url("../../www/img/icon_play.png");
+    content: url("/MyApp/www/img/icon_play.png");
     
     padding-top: 5px;
     font-size: 16px;
@@ -112,7 +114,7 @@ hr {
 
 
 footer {
-    padding-top: 100px;
+    padding-top: 90px;
     font-size: 10px;
     text-align: center;
 }
