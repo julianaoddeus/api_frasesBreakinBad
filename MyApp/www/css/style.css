@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+    background-color: #000;
+    background-image: url("../../www/img/breaking_bad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+    color: #fff;
+}
+.cabecalho {
+    /* display: flex;
+    align-items: flex-start; */
+    text-align: center;
+    padding-top: 50px;
+    font-size: 86px;
+    
+}
+
+.frase-breaking-bad {
+    color: #fff;
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* .cabecalho::after{
+    content: "\002630";
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 36px;
+} */
+
+.lista__filmes {
+    display: flex;
+   
+}
+
+.lista__filmes {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.link--filmes-sugeridos {
+    text-decoration: none;
+    padding: 16px;
+
+
+    color: white;
+    font-size: 12px;
+
+}
+/* ************************************* */
+.conteudo__filme {
+   
+    margin-top: 320px;
+}
+
+.descricao {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.img-bb {
+    width: 100%;
+    
+}
+
+button {
+    display: flex;
+    align-items: center;
+    
+    margin: 0 auto;
+
+    padding: 4px 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+button::before {
+    content: url("../../www/img/icon_play.png");
+    
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+hr {
+
+    width: 90%;
+    margin: 0 auto;
+
+    color: #fff;
+}
+
+
+
+footer {
+    padding-top: 100px;
+    font-size: 10px;
+    text-align: center;
+}
