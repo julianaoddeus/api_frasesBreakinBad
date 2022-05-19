@@ -63,19 +63,17 @@ p {
 /* ************************************* */
 .conteudo__filme {
    
-    margin-top: 320px;
+    margin-top: 300px;
 }
 
 .descricao {
-    text-align: center;
-    margin-top: 12px;
+    text-align: center;    
     line-height: 1px;
     font-size: 12px;
     line-height: 16px;
 }
 .img-bb {
-    width: 100%;
-    
+    width: 100%;    
 }
 
 button {
@@ -95,7 +93,7 @@ button {
 button::before {
     content: url("/MyApp/www/img/icon_play.png");
     
-    padding-top: 5px;
+   
     font-size: 16px;
 }
 
